@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/_next/static/*",
+    "/images/*",
+    "/press-logos/*",
+    "/_api-data/*",
+    "/_mirror/*",
+    "/favicon.ico",
+    "/icon.png",
+    "/apple-icon.png",
+    "/site.webmanifest"
+  ]
+}

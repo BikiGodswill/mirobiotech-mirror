@@ -1,0 +1,14 @@
+{
+  "name": "mirobiotech-mirror",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static clone of mirobiotech.com (4 locales) with checkout-UI parity",
+  "scripts": {
+    "start": "node serve.mjs",
+    "dev": "wrangler pages dev",
+    "deploy": "wrangler pages deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.86.0"
+  }
+}
